@@ -19,6 +19,7 @@ require("./routes/usuario.routes.js")(app);
 require("./routes/rol.routes.js")(app);
 require("./routes/permiso.routes.js")(app);
 require("./routes/categoria.routes.js")(app);
+require("./routes/producto.routes.js")(app);
 // set port, listen for requests
 app.listen(3000, () => {
   console.log("Server is running on port 3000.");
